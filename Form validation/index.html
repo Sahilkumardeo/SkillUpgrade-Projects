@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CUSTOMER'S SUPPORT</h1>
+    <h2> for any queries you can contact to us using your mobile app or website-</h2>
+    <form id="OUR SUPPORT">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <span class="error" id="messageError"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="java script.js"></script>
+</body>
+</html>
